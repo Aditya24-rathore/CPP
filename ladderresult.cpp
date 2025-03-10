@@ -13,7 +13,7 @@ int main()
     cin>>c;
 
     if ((ph >= 0 && ph <= 100) && (m >= 0 && m <= 100) && (c >= 0 && c <= 100)){
-       // cout<<"valid number ";
+       cout<<"valid number ";
     }
     else{
         cout<<"invalid number\n";
