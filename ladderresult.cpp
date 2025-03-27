@@ -3,7 +3,6 @@ using namespace std;
 
 int main()
 {
-
     float ph,m,c,per;
     cout<<"Enter physics marks ";
     cin>>ph;
