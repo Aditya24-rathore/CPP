@@ -7,7 +7,7 @@ int main() {
     for (int num = 2; num <= 20; num++) {
         bool isPrime = true;
 
-        for (int i = 2; i * i <= num; i++) { // Check divisibility
+        for (int i = 2; i * i <= num; i++) { 
             if (num % i == 0) {
                 isPrime = false;
                 break;
